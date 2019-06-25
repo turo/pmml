@@ -5,7 +5,7 @@ This version is still under development. Use at your own risk
 To install the package use devtools: 
 
 ```{r}
-devtools::install_github("guleatoma/pmml")
+devtools::install_github("turo/pmml")
 ```
 
 The package currently brings fixes targeted to the specific use cases listed below.
@@ -39,7 +39,7 @@ would result in a failed transformation to PMML, because the regular package wil
 So make sure you download the fixed version:
 
 ```{r}
-devtools::install_github("guleatoma/pmmlTransformations")
+devtools::install_github("turo/pmmlTransformations")
 ```
 
 ## Replacement values for missing values
