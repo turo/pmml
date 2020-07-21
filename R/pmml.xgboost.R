@@ -326,6 +326,7 @@ pmml.xgb.Booster <- function(model,
    }
    if(!interact && !is.null(transforms))
    {
+      ltNode <- xmlNode("LocalTransformations")
       mmodel <- append.XMLNode(mmodel,.pmmlLocalTransformations(field, transforms, ltNode))
    }
 
